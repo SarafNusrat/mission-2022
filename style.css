@@ -59,6 +59,31 @@ h1{
     width: 40%;
 }
 
-.mission-items{
-    box-shadow: rgb(173, 56, 56);
+p{
+    font-size: 15px;
+}
+
+#mission-item1{
+    border-radius: 10px;
+    box-shadow: none;
+    background-color: rgb(184, 222, 236);
+    margin-right: 20px;
+    padding: 30px 25px 20px;
+}
+
+
+#mission-item2{
+    border-radius: 10px;
+    box-shadow: none;
+    background-color: rgb(228, 212, 214);
+    margin-right: 20px;
+    padding: 30px 25px 20px;
+}
+
+#mission-item3{
+    border-radius: 10px;
+    box-shadow: none;
+    background-color: lightsteelblue;
+    margin-right: 20px;
+    padding: 30px 25px 20px;
 }
