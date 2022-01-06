@@ -2,9 +2,9 @@ body{
     font-family: 'Acme', sans-serif;
     font-family: 'Bree Serif', serif;
     font-family: 'Poppins', sans-serif;
-    margin-left: 100px;
     margin-top: 50px;
-    margin-right: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 h1{
@@ -13,7 +13,9 @@ h1{
 
 .stay-focused{
     display: flex;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 80px;
 }
 
 .text-color{
@@ -49,6 +51,8 @@ h1{
 #my-mission{
     text-align: center;
     font-size: 40px;
+    margin-left: 100px;
+    margin-right: 80px;
 }
 
 .mission-vision{
@@ -69,6 +73,7 @@ p{
     box-shadow: none;
     background-color: rgb(184, 222, 236);
     margin-right: 20px;
+    margin-left: 100px;
     padding: 20px 25px 20px;
 }
 
@@ -85,7 +90,7 @@ p{
     border-radius: 10px;
     box-shadow: none;
     background-color: lightsteelblue;
-    margin-right: 20px;
+    margin-right: 80px;
     padding: 20px 25px 20px;
 }
 
@@ -95,12 +100,15 @@ p{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: left top;
+    margin-left: 100px;
+    margin-right: 80px;
 }
 
 .contact{
     display: flex;
     background-image: url(images/shapes/shape-5.png);
     background-repeat: no-repeat;
+    margin-bottom: 70px;
 }
 
 .blog{
@@ -109,6 +117,8 @@ p{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-left: 100px;
+    margin-right: 80px;
 }
 
 .lower-part{
@@ -136,9 +146,20 @@ i{
 }
 
 .contact img{
-    width: 100px;
+    width: 70px;
 }
 
 .icon-width{
-    margin: 50px 100px;
+    margin: 10px 180px;
+}
+
+#contact-me{
+    text-align: center;
+    font-weight: 800;
+    color: chocolate;
+    border-bottom: 20px solid;
+    border-color: rgb(120, 170, 45);
+    border-width: 4px;
+    margin-left: 100px;
+    margin-right: 80px;
 }
